@@ -96,6 +96,9 @@ Partial Class F_Main
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.L_System = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.ExtModManagerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InstallationToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UpdateToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
         Me.M_Main.SuspendLayout()
         CType(Me.F_Main_Picture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -177,7 +180,7 @@ Partial Class F_Main
         '
         'AssistentenToolStripMenuItem
         '
-        Me.AssistentenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ModLoaderToolStripMenuItem, Me.ToolStripSeparator2, Me.ModToolToolStripMenuItem1, Me.MapEditorToolStripMenuItem1, Me.ToolStripSeparator3, Me.AssetViewerToolStripMenuItem1, Me.AnnoDesignerToolStripMenuItem1})
+        Me.AssistentenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ModLoaderToolStripMenuItem, Me.ExtModManagerToolStripMenuItem1, Me.ToolStripSeparator2, Me.ModToolToolStripMenuItem1, Me.MapEditorToolStripMenuItem1, Me.ToolStripSeparator3, Me.AssetViewerToolStripMenuItem1, Me.AnnoDesignerToolStripMenuItem1})
         Me.AssistentenToolStripMenuItem.Name = "AssistentenToolStripMenuItem"
         Me.AssistentenToolStripMenuItem.Size = New System.Drawing.Size(97, 24)
         Me.AssistentenToolStripMenuItem.Text = "&Assistenten"
@@ -186,7 +189,7 @@ Partial Class F_Main
         '
         Me.ModLoaderToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InstallationToolStripMenuItem, Me.UpdateToolStripMenuItem})
         Me.ModLoaderToolStripMenuItem.Name = "ModLoaderToolStripMenuItem"
-        Me.ModLoaderToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
+        Me.ModLoaderToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ModLoaderToolStripMenuItem.Text = "ModLoader"
         '
         'InstallationToolStripMenuItem
@@ -204,32 +207,32 @@ Partial Class F_Main
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(183, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(221, 6)
         '
         'ModToolToolStripMenuItem1
         '
         Me.ModToolToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InstallationToolStripMenuItem4, Me.UpdateToolStripMenuItem4})
         Me.ModToolToolStripMenuItem1.Name = "ModToolToolStripMenuItem1"
-        Me.ModToolToolStripMenuItem1.Size = New System.Drawing.Size(186, 26)
+        Me.ModToolToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
         Me.ModToolToolStripMenuItem1.Text = "ModTool"
         '
         'InstallationToolStripMenuItem4
         '
         Me.InstallationToolStripMenuItem4.Name = "InstallationToolStripMenuItem4"
-        Me.InstallationToolStripMenuItem4.Size = New System.Drawing.Size(165, 26)
+        Me.InstallationToolStripMenuItem4.Size = New System.Drawing.Size(224, 26)
         Me.InstallationToolStripMenuItem4.Text = "Installation"
         '
         'UpdateToolStripMenuItem4
         '
         Me.UpdateToolStripMenuItem4.Name = "UpdateToolStripMenuItem4"
-        Me.UpdateToolStripMenuItem4.Size = New System.Drawing.Size(165, 26)
+        Me.UpdateToolStripMenuItem4.Size = New System.Drawing.Size(224, 26)
         Me.UpdateToolStripMenuItem4.Text = "Update"
         '
         'MapEditorToolStripMenuItem1
         '
         Me.MapEditorToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InstallationToolStripMenuItem1, Me.UpdateToolStripMenuItem1})
         Me.MapEditorToolStripMenuItem1.Name = "MapEditorToolStripMenuItem1"
-        Me.MapEditorToolStripMenuItem1.Size = New System.Drawing.Size(186, 26)
+        Me.MapEditorToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
         Me.MapEditorToolStripMenuItem1.Text = "MapEditor"
         '
         'InstallationToolStripMenuItem1
@@ -247,13 +250,13 @@ Partial Class F_Main
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(183, 6)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(221, 6)
         '
         'AssetViewerToolStripMenuItem1
         '
         Me.AssetViewerToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InstallationToolStripMenuItem2, Me.UpdateToolStripMenuItem2})
         Me.AssetViewerToolStripMenuItem1.Name = "AssetViewerToolStripMenuItem1"
-        Me.AssetViewerToolStripMenuItem1.Size = New System.Drawing.Size(186, 26)
+        Me.AssetViewerToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
         Me.AssetViewerToolStripMenuItem1.Text = "AssetViewer"
         '
         'InstallationToolStripMenuItem2
@@ -272,19 +275,19 @@ Partial Class F_Main
         '
         Me.AnnoDesignerToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InstallationToolStripMenuItem3, Me.UpdateToolStripMenuItem3})
         Me.AnnoDesignerToolStripMenuItem1.Name = "AnnoDesignerToolStripMenuItem1"
-        Me.AnnoDesignerToolStripMenuItem1.Size = New System.Drawing.Size(186, 26)
+        Me.AnnoDesignerToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
         Me.AnnoDesignerToolStripMenuItem1.Text = "AnnoDesigner"
         '
         'InstallationToolStripMenuItem3
         '
         Me.InstallationToolStripMenuItem3.Name = "InstallationToolStripMenuItem3"
-        Me.InstallationToolStripMenuItem3.Size = New System.Drawing.Size(165, 26)
+        Me.InstallationToolStripMenuItem3.Size = New System.Drawing.Size(224, 26)
         Me.InstallationToolStripMenuItem3.Text = "Installation"
         '
         'UpdateToolStripMenuItem3
         '
         Me.UpdateToolStripMenuItem3.Name = "UpdateToolStripMenuItem3"
-        Me.UpdateToolStripMenuItem3.Size = New System.Drawing.Size(165, 26)
+        Me.UpdateToolStripMenuItem3.Size = New System.Drawing.Size(224, 26)
         Me.UpdateToolStripMenuItem3.Text = "Update"
         '
         'ModVerwaltungToolStripMenuItem
@@ -686,6 +689,25 @@ Partial Class F_Main
         Me.Panel3.Size = New System.Drawing.Size(147, 319)
         Me.Panel3.TabIndex = 22
         '
+        'ExtModManagerToolStripMenuItem1
+        '
+        Me.ExtModManagerToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InstallationToolStripMenuItem5, Me.UpdateToolStripMenuItem5})
+        Me.ExtModManagerToolStripMenuItem1.Name = "ExtModManagerToolStripMenuItem1"
+        Me.ExtModManagerToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.ExtModManagerToolStripMenuItem1.Text = "ext. ModManager"
+        '
+        'InstallationToolStripMenuItem5
+        '
+        Me.InstallationToolStripMenuItem5.Name = "InstallationToolStripMenuItem5"
+        Me.InstallationToolStripMenuItem5.Size = New System.Drawing.Size(224, 26)
+        Me.InstallationToolStripMenuItem5.Text = "Installation"
+        '
+        'UpdateToolStripMenuItem5
+        '
+        Me.UpdateToolStripMenuItem5.Name = "UpdateToolStripMenuItem5"
+        Me.UpdateToolStripMenuItem5.Size = New System.Drawing.Size(224, 26)
+        Me.UpdateToolStripMenuItem5.Text = "Update"
+        '
         'F_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
@@ -828,4 +850,7 @@ Partial Class F_Main
     Friend WithEvents Panel2 As Panel
     Friend WithEvents L_System As Label
     Friend WithEvents Panel3 As Panel
+    Friend WithEvents ExtModManagerToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents InstallationToolStripMenuItem5 As ToolStripMenuItem
+    Friend WithEvents UpdateToolStripMenuItem5 As ToolStripMenuItem
 End Class
