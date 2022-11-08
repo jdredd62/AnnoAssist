@@ -1,0 +1,28 @@
+Welche Zeile beinhaltet welche Info
+
+01. Verzeichnis von Anno 1800
+02. Anno.exe oder Anno_plus.exe
+03. Verzeichnis ModLoader
+04. Verzeichnis der original python-Datei von Ubisoft
+05. Verzeichnis der Spielstände
+06. Verzeichnis der Mods (Dokumente oder Spielordner)
+07.
+08.
+09.
+10. Verzeichnis der Backup-Spielstände
+11. Verzeichnis der Backup-Mods
+12.
+13.
+14. Aufruf (inkl. Verzeichnis) ModTool
+15. Aufruf (inkl. Verzeichnis) MapEditor
+16. Aufruf (inkl. Verzeichnis) AssetViewer
+17. Aufruf (inkl. Verzeichnis) AnnoDesigner
+18. Aufruf (inkl. Verzeichnis) ext. ModManager
+19.
+20.
+
+Registry Keys:
+Ubisoft-Connect: HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Ubisoft\Anno 1800
+
+Steam: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 916440 (InstallLocation)
+Steam: 916440
