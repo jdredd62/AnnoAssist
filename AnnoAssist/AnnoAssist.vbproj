@@ -152,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon_light_bulb.ico" />
+    <None Include="Resources\Titel-Bild.png" />
     <None Include="Resources\Anno_1800_2.png" />
     <None Include="Resources\NexusMods_Logo1.png" />
     <None Include="Resources\NexusMods_Logo.png" />
