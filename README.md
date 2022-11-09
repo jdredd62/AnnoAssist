@@ -5,7 +5,7 @@ Ein Tool für das Modding und Verwaltung von Anno 1800
 
 Der AnnoAssistent befindet sich noch in der Entwicklung und wird die AnnoTools ablösen.
 
-Der AnnoAssit enthält mehrere Funktionen / Assistenten:
+Der AnnoAssist enthält mehrere Funktionen / Assistenten:
 1. ModLoader (Install / Update - Anleitung wird dann enthalten sein)
 2. Installation von externen Tools:
     - ModTool
