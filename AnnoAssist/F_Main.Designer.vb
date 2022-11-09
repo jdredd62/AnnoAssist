@@ -519,7 +519,7 @@ Partial Class F_Main
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label1.Location = New System.Drawing.Point(206, 177)
+        Me.Label1.Location = New System.Drawing.Point(208, 162)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(318, 16)
         Me.Label1.TabIndex = 19
@@ -651,7 +651,7 @@ Partial Class F_Main
         'F_Main_Picture
         '
         Me.F_Main_Picture.Image = Global.AnnoAssist.My.Resources.Resources.Titel_Bild
-        Me.F_Main_Picture.Location = New System.Drawing.Point(165, 45)
+        Me.F_Main_Picture.Location = New System.Drawing.Point(165, 31)
         Me.F_Main_Picture.Name = "F_Main_Picture"
         Me.F_Main_Picture.Size = New System.Drawing.Size(349, 129)
         Me.F_Main_Picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
