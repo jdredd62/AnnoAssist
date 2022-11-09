@@ -10,6 +10,7 @@ Der AnnoAssit enthält mehrere Funktionen / Assistenten:
     - Map Editor
     - Asset Viewer
     - Anno Designer
+    - Ext. ModManager
 
 3. Datensicherung von:
     - Spielstände
