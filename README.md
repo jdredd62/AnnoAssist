@@ -12,7 +12,7 @@ Der AnnoAssit enthält mehrere Funktionen / Assistenten:
     - Anno Designer
 
 Datensicherung von:
-    - Spielständen
+    - Spielstände
     - Mods
 
 Modverwaltung:
