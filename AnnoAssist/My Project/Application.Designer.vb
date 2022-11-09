@@ -34,5 +34,10 @@ Namespace My
         Protected Overrides Sub OnCreateMainForm()
             Me.MainForm = Global.AnnoAssist.F_Main
         End Sub
+        
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+        Protected Overrides Sub OnCreateSplashScreen()
+            Me.SplashScreen = Global.AnnoAssist.Start
+        End Sub
     End Class
 End Namespace
