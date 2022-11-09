@@ -22,7 +22,7 @@ Welche Zeile beinhaltet welche Info
 20.
 
 Registry Keys:
-Ubisoft-Connect: HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Ubisoft\Anno 1800
+Ubisoft-Connect: HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Ubisoft\Anno 1800 (InstallDir)
 
 Steam: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 916440 (InstallLocation)
 Steam: 916440
