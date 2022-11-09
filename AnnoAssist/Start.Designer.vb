@@ -32,7 +32,7 @@ Partial Class Start
         Me.PictureBox1.InitialImage = Global.AnnoAssist.My.Resources.Resources.Titel_Bild
         Me.PictureBox1.Location = New System.Drawing.Point(0, -1)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(867, 363)
+        Me.PictureBox1.Size = New System.Drawing.Size(895, 363)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -41,7 +41,7 @@ Partial Class Start
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(863, 360)
+        Me.ClientSize = New System.Drawing.Size(894, 360)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Start"
