@@ -11,11 +11,11 @@ Der AnnoAssit enthält mehrere Funktionen / Assistenten:
     - Asset Viewer
     - Anno Designer
 
-Datensicherung von:
+3. Datensicherung von:
     - Spielstände
     - Mods
 
-Modverwaltung:
+4. Modverwaltung:
     - Mod Download (derzeit sind 2 Modverlinkungen vorhanden)
     - Installation von Mods
     - interner Modmanager
