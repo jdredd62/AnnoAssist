@@ -321,67 +321,67 @@ Partial Class F_Main
         '
         Me.ModsDownloadToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NexusModsToolStripMenuItem, Me.TaludasCollectionToolStripMenuItem})
         Me.ModsDownloadToolStripMenuItem.Name = "ModsDownloadToolStripMenuItem"
-        Me.ModsDownloadToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModsDownloadToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModsDownloadToolStripMenuItem.Text = "Mods Download"
         '
         'NexusModsToolStripMenuItem
         '
         Me.NexusModsToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.NexusMods_Logo1
         Me.NexusModsToolStripMenuItem.Name = "NexusModsToolStripMenuItem"
-        Me.NexusModsToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NexusModsToolStripMenuItem.Size = New System.Drawing.Size(212, 26)
         Me.NexusModsToolStripMenuItem.Text = "NexusMods"
         '
         'TaludasCollectionToolStripMenuItem
         '
         Me.TaludasCollectionToolStripMenuItem.Name = "TaludasCollectionToolStripMenuItem"
-        Me.TaludasCollectionToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.TaludasCollectionToolStripMenuItem.Size = New System.Drawing.Size(212, 26)
         Me.TaludasCollectionToolStripMenuItem.Text = "Taludas Collection"
         '
         'ModsInstallierenToolStripMenuItem
         '
         Me.ModsInstallierenToolStripMenuItem.Name = "ModsInstallierenToolStripMenuItem"
-        Me.ModsInstallierenToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModsInstallierenToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModsInstallierenToolStripMenuItem.Text = "Mods installieren"
         '
         'ModManagerToolStripMenuItem
         '
         Me.ModManagerToolStripMenuItem.Name = "ModManagerToolStripMenuItem"
-        Me.ModManagerToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModManagerToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModManagerToolStripMenuItem.Text = "Mod Manager"
         '
         'ExtModmanagerToolStripMenuItem
         '
         Me.ExtModmanagerToolStripMenuItem.Name = "ExtModmanagerToolStripMenuItem"
-        Me.ExtModmanagerToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ExtModmanagerToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ExtModmanagerToolStripMenuItem.Text = "ext. Modmanager"
         '
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(221, 6)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(220, 6)
         '
         'ModLogToolStripMenuItem
         '
         Me.ModLogToolStripMenuItem.Name = "ModLogToolStripMenuItem"
-        Me.ModLogToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModLogToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModLogToolStripMenuItem.Text = "Mod-Log prüfen"
         '
         'ModCacheLöschenToolStripMenuItem
         '
         Me.ModCacheLöschenToolStripMenuItem.Name = "ModCacheLöschenToolStripMenuItem"
-        Me.ModCacheLöschenToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModCacheLöschenToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModCacheLöschenToolStripMenuItem.Text = "Mod-Cache löschen"
         '
         'ToolStripSeparator5
         '
         Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
-        Me.ToolStripSeparator5.Size = New System.Drawing.Size(221, 6)
+        Me.ToolStripSeparator5.Size = New System.Drawing.Size(220, 6)
         '
         'ModdingToolStripMenuItem
         '
         Me.ModdingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EinToolStripMenuItem, Me.AusToolStripMenuItem})
         Me.ModdingToolStripMenuItem.Name = "ModdingToolStripMenuItem"
-        Me.ModdingToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModdingToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModdingToolStripMenuItem.Text = "Modding"
         '
         'EinToolStripMenuItem
@@ -707,7 +707,7 @@ Partial Class F_Main
         '
         'F_Main_Picture
         '
-        Me.F_Main_Picture.Image = Global.AnnoAssist.My.Resources.Resources.Titel_Bild
+        Me.F_Main_Picture.BackgroundImage = Global.AnnoAssist.My.Resources.Resources.Titel_Bild1
         Me.F_Main_Picture.Location = New System.Drawing.Point(165, 31)
         Me.F_Main_Picture.Name = "F_Main_Picture"
         Me.F_Main_Picture.Size = New System.Drawing.Size(349, 129)
