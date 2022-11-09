@@ -1,4 +1,4 @@
-![Titel!](img src="/jdredd62/AnnoAssist/blob/master/AnnoAssist/Resources/Titel-Bild.png?raw=true" alt="Titel-Bild.png")
+![Titel!](Titel-Bild.png)
 
 # AnnoAssist
 Ein Tool für das Modding und Verwaltung von Anno 1800
