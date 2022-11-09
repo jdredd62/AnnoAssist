@@ -25,4 +25,4 @@ Der AnnoAssist enthält mehrere Funktionen / Assistenten:
     - ext. Modmanager
     - Mod-Logfile prüfen / löschen
     - Mod-Cache löschen
-- Weitere Funktion folgen
+- Weitere Funktionen folgen (Vorschläge der Community)
