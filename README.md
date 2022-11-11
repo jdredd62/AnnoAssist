@@ -26,3 +26,6 @@ Der AnnoAssist enthält mehrere Funktionen / Assistenten:
     - Mod-Logfile prüfen / löschen
     - Mod-Cache löschen
 - Weitere Funktionen folgen (Vorschläge der Community)
+
+
+![Titel!](https://github.com/jdredd62/AnnoAssist/blob/master/AnnoAssist/Resources/Anno-Assist.png)
