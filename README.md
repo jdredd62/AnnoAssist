@@ -19,7 +19,7 @@ Der AnnoAssist enthält mehrere Funktionen / Assistenten:
     - Mods
 
 4. Modverwaltung:
-    - Mod Download (derzeit sind 2 Modverlinkungen vorhanden)
+    - Mod Download (Links zu Anno-Mod Seiten)
     - Installation von Mods
     - interner Modmanager
     - ext. Modmanager
