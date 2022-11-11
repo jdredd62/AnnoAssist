@@ -14,4 +14,8 @@
     Private Sub FishbossToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FishbossToolStripMenuItem.Click
         Process.Start("https://github.com/anno-mods/Fishboss-Mods")
     End Sub
+
+    Private Sub ÜberAnnoAssistToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÜberAnnoAssistToolStripMenuItem.Click
+        Ueber.ShowDialog()
+    End Sub
 End Class

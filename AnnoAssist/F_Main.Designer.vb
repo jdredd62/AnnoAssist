@@ -25,14 +25,8 @@ Partial Class F_Main
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(F_Main))
         Me.M_Main = New System.Windows.Forms.MenuStrip()
         Me.KonfigurationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EinrichtenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AnnoAssistBeendenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExterneToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModToolToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MapEditorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.AssetViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AnnoDesignerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AssistentenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModLoaderToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InstallationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -56,9 +50,9 @@ Partial Class F_Main
         Me.UpdateToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModVerwaltungToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModsDownloadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NexusModsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TaludasCollectionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.JakobToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FishbossToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModsInstallierenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModManagerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExtModmanagerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -77,7 +71,6 @@ Partial Class F_Main
         Me.BackupToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RestoreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HilfeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ÜberAnnoAssistToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.L_Anno_Button = New System.Windows.Forms.Label()
         Me.B_Modding_on = New System.Windows.Forms.Button()
         Me.B_Modding_off = New System.Windows.Forms.Button()
@@ -91,17 +84,24 @@ Partial Class F_Main
         Me.B_Cache = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.L_System = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.B_Anno_starten = New System.Windows.Forms.Button()
+        Me.B_config = New System.Windows.Forms.Button()
         Me.B_MapEditor = New System.Windows.Forms.Button()
         Me.B_AnnoDesigner = New System.Windows.Forms.Button()
         Me.B_ModTool = New System.Windows.Forms.Button()
         Me.B_AssestViewer = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.L_System = New System.Windows.Forms.Label()
-        Me.B_config = New System.Windows.Forms.Button()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.B_Anno_starten = New System.Windows.Forms.Button()
         Me.F_Main_Picture = New System.Windows.Forms.PictureBox()
-        Me.FishbossToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EinrichtenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AnnoAssistBeendenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ModToolToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MapEditorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AssetViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AnnoDesignerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NexusModsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ÜberAnnoAssistToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.M_Main.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -126,20 +126,6 @@ Partial Class F_Main
         Me.KonfigurationToolStripMenuItem.Size = New System.Drawing.Size(59, 24)
         Me.KonfigurationToolStripMenuItem.Text = "&Datei"
         '
-        'EinrichtenToolStripMenuItem
-        '
-        Me.EinrichtenToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.icon_konfiguration
-        Me.EinrichtenToolStripMenuItem.Name = "EinrichtenToolStripMenuItem"
-        Me.EinrichtenToolStripMenuItem.Size = New System.Drawing.Size(226, 26)
-        Me.EinrichtenToolStripMenuItem.Text = "Konfiguration"
-        '
-        'AnnoAssistBeendenToolStripMenuItem
-        '
-        Me.AnnoAssistBeendenToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources._Exit
-        Me.AnnoAssistBeendenToolStripMenuItem.Name = "AnnoAssistBeendenToolStripMenuItem"
-        Me.AnnoAssistBeendenToolStripMenuItem.Size = New System.Drawing.Size(226, 26)
-        Me.AnnoAssistBeendenToolStripMenuItem.Text = "AnnoAssist beenden"
-        '
         'ExterneToolsToolStripMenuItem
         '
         Me.ExterneToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ModToolToolStripMenuItem, Me.MapEditorToolStripMenuItem, Me.ToolStripSeparator1, Me.AssetViewerToolStripMenuItem, Me.AnnoDesignerToolStripMenuItem})
@@ -147,39 +133,10 @@ Partial Class F_Main
         Me.ExterneToolsToolStripMenuItem.Size = New System.Drawing.Size(111, 24)
         Me.ExterneToolsToolStripMenuItem.Text = "&Externe Tools"
         '
-        'ModToolToolStripMenuItem
-        '
-        Me.ModToolToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.ModTool
-        Me.ModToolToolStripMenuItem.Name = "ModToolToolStripMenuItem"
-        Me.ModToolToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
-        Me.ModToolToolStripMenuItem.Text = "ModTool"
-        Me.ModToolToolStripMenuItem.ToolTipText = "Das ModTool von Pogobuckel"
-        '
-        'MapEditorToolStripMenuItem
-        '
-        Me.MapEditorToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.MapEditor
-        Me.MapEditorToolStripMenuItem.Name = "MapEditorToolStripMenuItem"
-        Me.MapEditorToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
-        Me.MapEditorToolStripMenuItem.Text = "MapEditor"
-        '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
         Me.ToolStripSeparator1.Size = New System.Drawing.Size(183, 6)
-        '
-        'AssetViewerToolStripMenuItem
-        '
-        Me.AssetViewerToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.AssetViewer
-        Me.AssetViewerToolStripMenuItem.Name = "AssetViewerToolStripMenuItem"
-        Me.AssetViewerToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
-        Me.AssetViewerToolStripMenuItem.Text = "AssetViewer"
-        '
-        'AnnoDesignerToolStripMenuItem
-        '
-        Me.AnnoDesignerToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.AnnoDesigner
-        Me.AnnoDesignerToolStripMenuItem.Name = "AnnoDesignerToolStripMenuItem"
-        Me.AnnoDesignerToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
-        Me.AnnoDesignerToolStripMenuItem.Text = "AnnoDesigner"
         '
         'AssistentenToolStripMenuItem
         '
@@ -323,73 +280,72 @@ Partial Class F_Main
         '
         Me.ModsDownloadToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NexusModsToolStripMenuItem, Me.TaludasCollectionToolStripMenuItem, Me.JakobToolStripMenuItem, Me.FishbossToolStripMenuItem})
         Me.ModsDownloadToolStripMenuItem.Name = "ModsDownloadToolStripMenuItem"
-        Me.ModsDownloadToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModsDownloadToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModsDownloadToolStripMenuItem.Text = "Mods Download"
-        '
-        'NexusModsToolStripMenuItem
-        '
-        Me.NexusModsToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.NexusMods_Logo1
-        Me.NexusModsToolStripMenuItem.Name = "NexusModsToolStripMenuItem"
-        Me.NexusModsToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.NexusModsToolStripMenuItem.Text = "NexusMods"
         '
         'TaludasCollectionToolStripMenuItem
         '
         Me.TaludasCollectionToolStripMenuItem.Name = "TaludasCollectionToolStripMenuItem"
-        Me.TaludasCollectionToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.TaludasCollectionToolStripMenuItem.Size = New System.Drawing.Size(212, 26)
         Me.TaludasCollectionToolStripMenuItem.Text = "Taludas Collection"
         '
         'JakobToolStripMenuItem
         '
         Me.JakobToolStripMenuItem.Name = "JakobToolStripMenuItem"
-        Me.JakobToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.JakobToolStripMenuItem.Size = New System.Drawing.Size(212, 26)
         Me.JakobToolStripMenuItem.Text = "Jakob"
+        '
+        'FishbossToolStripMenuItem
+        '
+        Me.FishbossToolStripMenuItem.Name = "FishbossToolStripMenuItem"
+        Me.FishbossToolStripMenuItem.Size = New System.Drawing.Size(212, 26)
+        Me.FishbossToolStripMenuItem.Text = "Fishboss"
         '
         'ModsInstallierenToolStripMenuItem
         '
         Me.ModsInstallierenToolStripMenuItem.Name = "ModsInstallierenToolStripMenuItem"
-        Me.ModsInstallierenToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModsInstallierenToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModsInstallierenToolStripMenuItem.Text = "Mods installieren"
         '
         'ModManagerToolStripMenuItem
         '
         Me.ModManagerToolStripMenuItem.Name = "ModManagerToolStripMenuItem"
-        Me.ModManagerToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModManagerToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModManagerToolStripMenuItem.Text = "Mod Manager"
         '
         'ExtModmanagerToolStripMenuItem
         '
         Me.ExtModmanagerToolStripMenuItem.Name = "ExtModmanagerToolStripMenuItem"
-        Me.ExtModmanagerToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ExtModmanagerToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ExtModmanagerToolStripMenuItem.Text = "ext. Modmanager"
         '
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(221, 6)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(220, 6)
         '
         'ModLogToolStripMenuItem
         '
         Me.ModLogToolStripMenuItem.Name = "ModLogToolStripMenuItem"
-        Me.ModLogToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModLogToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModLogToolStripMenuItem.Text = "Mod-Log prüfen"
         '
         'ModCacheLöschenToolStripMenuItem
         '
         Me.ModCacheLöschenToolStripMenuItem.Name = "ModCacheLöschenToolStripMenuItem"
-        Me.ModCacheLöschenToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModCacheLöschenToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModCacheLöschenToolStripMenuItem.Text = "Mod-Cache löschen"
         '
         'ToolStripSeparator5
         '
         Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
-        Me.ToolStripSeparator5.Size = New System.Drawing.Size(221, 6)
+        Me.ToolStripSeparator5.Size = New System.Drawing.Size(220, 6)
         '
         'ModdingToolStripMenuItem
         '
         Me.ModdingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EinToolStripMenuItem, Me.AusToolStripMenuItem})
         Me.ModdingToolStripMenuItem.Name = "ModdingToolStripMenuItem"
-        Me.ModdingToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModdingToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.ModdingToolStripMenuItem.Text = "Modding"
         '
         'EinToolStripMenuItem
@@ -455,13 +411,6 @@ Partial Class F_Main
         Me.HilfeToolStripMenuItem.Name = "HilfeToolStripMenuItem"
         Me.HilfeToolStripMenuItem.Size = New System.Drawing.Size(55, 24)
         Me.HilfeToolStripMenuItem.Text = "&Hilfe"
-        '
-        'ÜberAnnoAssistToolStripMenuItem
-        '
-        Me.ÜberAnnoAssistToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.icon_light_bulb
-        Me.ÜberAnnoAssistToolStripMenuItem.Name = "ÜberAnnoAssistToolStripMenuItem"
-        Me.ÜberAnnoAssistToolStripMenuItem.Size = New System.Drawing.Size(200, 26)
-        Me.ÜberAnnoAssistToolStripMenuItem.Text = "Über AnnoAssist"
         '
         'L_Anno_Button
         '
@@ -607,6 +556,68 @@ Partial Class F_Main
         Me.Panel1.Size = New System.Drawing.Size(192, 319)
         Me.Panel1.TabIndex = 20
         '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.SystemColors.Info
+        Me.Panel2.Controls.Add(Me.L_System)
+        Me.Panel2.Controls.Add(Me.B_Logfile)
+        Me.Panel2.Controls.Add(Me.B_config)
+        Me.Panel2.Controls.Add(Me.L_Config_Button)
+        Me.Panel2.Controls.Add(Me.B_Cache)
+        Me.Panel2.Location = New System.Drawing.Point(165, 210)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(349, 140)
+        Me.Panel2.TabIndex = 21
+        '
+        'L_System
+        '
+        Me.L_System.AutoSize = True
+        Me.L_System.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.L_System.ForeColor = System.Drawing.Color.Red
+        Me.L_System.Location = New System.Drawing.Point(110, 3)
+        Me.L_System.Name = "L_System"
+        Me.L_System.Size = New System.Drawing.Size(84, 25)
+        Me.L_System.TabIndex = 22
+        Me.L_System.Text = "System"
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.SystemColors.Info
+        Me.Panel3.Controls.Add(Me.B_Anno_starten)
+        Me.Panel3.Controls.Add(Me.L_Anno_Button)
+        Me.Panel3.Controls.Add(Me.B_Modding_on)
+        Me.Panel3.Controls.Add(Me.B_Modding_off)
+        Me.Panel3.Location = New System.Drawing.Point(12, 31)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(147, 319)
+        Me.Panel3.TabIndex = 22
+        '
+        'B_Anno_starten
+        '
+        Me.B_Anno_starten.BackgroundImage = Global.AnnoAssist.My.Resources.Resources.Anno_1800_2
+        Me.B_Anno_starten.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.B_Anno_starten.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.B_Anno_starten.Location = New System.Drawing.Point(13, 19)
+        Me.B_Anno_starten.Name = "B_Anno_starten"
+        Me.B_Anno_starten.Size = New System.Drawing.Size(122, 115)
+        Me.B_Anno_starten.TabIndex = 2
+        Me.B_Anno_starten.Tag = "Anno 1800 starten"
+        Me.B_Anno_starten.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.B_Anno_starten.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.B_Anno_starten.UseVisualStyleBackColor = True
+        '
+        'B_config
+        '
+        Me.B_config.BackColor = System.Drawing.Color.BurlyWood
+        Me.B_config.BackgroundImage = Global.AnnoAssist.My.Resources.Resources.icon_konfiguration
+        Me.B_config.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.B_config.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.B_config.Location = New System.Drawing.Point(35, 39)
+        Me.B_config.Name = "B_config"
+        Me.B_config.Size = New System.Drawing.Size(73, 73)
+        Me.B_config.TabIndex = 15
+        Me.B_config.UseVisualStyleBackColor = False
+        '
         'B_MapEditor
         '
         Me.B_MapEditor.BackgroundImage = Global.AnnoAssist.My.Resources.Resources.MapEditor
@@ -651,68 +662,6 @@ Partial Class F_Main
         Me.B_AssestViewer.TabIndex = 10
         Me.B_AssestViewer.UseVisualStyleBackColor = True
         '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.Info
-        Me.Panel2.Controls.Add(Me.L_System)
-        Me.Panel2.Controls.Add(Me.B_Logfile)
-        Me.Panel2.Controls.Add(Me.B_config)
-        Me.Panel2.Controls.Add(Me.L_Config_Button)
-        Me.Panel2.Controls.Add(Me.B_Cache)
-        Me.Panel2.Location = New System.Drawing.Point(165, 210)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(349, 140)
-        Me.Panel2.TabIndex = 21
-        '
-        'L_System
-        '
-        Me.L_System.AutoSize = True
-        Me.L_System.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.L_System.ForeColor = System.Drawing.Color.Red
-        Me.L_System.Location = New System.Drawing.Point(110, 3)
-        Me.L_System.Name = "L_System"
-        Me.L_System.Size = New System.Drawing.Size(84, 25)
-        Me.L_System.TabIndex = 22
-        Me.L_System.Text = "System"
-        '
-        'B_config
-        '
-        Me.B_config.BackColor = System.Drawing.Color.BurlyWood
-        Me.B_config.BackgroundImage = Global.AnnoAssist.My.Resources.Resources.icon_konfiguration
-        Me.B_config.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.B_config.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.B_config.Location = New System.Drawing.Point(35, 39)
-        Me.B_config.Name = "B_config"
-        Me.B_config.Size = New System.Drawing.Size(73, 73)
-        Me.B_config.TabIndex = 15
-        Me.B_config.UseVisualStyleBackColor = False
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.SystemColors.Info
-        Me.Panel3.Controls.Add(Me.B_Anno_starten)
-        Me.Panel3.Controls.Add(Me.L_Anno_Button)
-        Me.Panel3.Controls.Add(Me.B_Modding_on)
-        Me.Panel3.Controls.Add(Me.B_Modding_off)
-        Me.Panel3.Location = New System.Drawing.Point(12, 31)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(147, 319)
-        Me.Panel3.TabIndex = 22
-        '
-        'B_Anno_starten
-        '
-        Me.B_Anno_starten.BackgroundImage = Global.AnnoAssist.My.Resources.Resources.Anno_1800_2
-        Me.B_Anno_starten.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.B_Anno_starten.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.B_Anno_starten.Location = New System.Drawing.Point(13, 19)
-        Me.B_Anno_starten.Name = "B_Anno_starten"
-        Me.B_Anno_starten.Size = New System.Drawing.Size(122, 115)
-        Me.B_Anno_starten.TabIndex = 2
-        Me.B_Anno_starten.Tag = "Anno 1800 starten"
-        Me.B_Anno_starten.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.B_Anno_starten.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.B_Anno_starten.UseVisualStyleBackColor = True
-        '
         'F_Main_Picture
         '
         Me.F_Main_Picture.BackgroundImage = Global.AnnoAssist.My.Resources.Resources.Titel_Bild1
@@ -724,11 +673,62 @@ Partial Class F_Main
         Me.F_Main_Picture.TabIndex = 1
         Me.F_Main_Picture.TabStop = False
         '
-        'FishbossToolStripMenuItem
+        'EinrichtenToolStripMenuItem
         '
-        Me.FishbossToolStripMenuItem.Name = "FishbossToolStripMenuItem"
-        Me.FishbossToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.FishbossToolStripMenuItem.Text = "Fishboss"
+        Me.EinrichtenToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.icon_konfiguration
+        Me.EinrichtenToolStripMenuItem.Name = "EinrichtenToolStripMenuItem"
+        Me.EinrichtenToolStripMenuItem.Size = New System.Drawing.Size(226, 26)
+        Me.EinrichtenToolStripMenuItem.Text = "Konfiguration"
+        '
+        'AnnoAssistBeendenToolStripMenuItem
+        '
+        Me.AnnoAssistBeendenToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources._Exit
+        Me.AnnoAssistBeendenToolStripMenuItem.Name = "AnnoAssistBeendenToolStripMenuItem"
+        Me.AnnoAssistBeendenToolStripMenuItem.Size = New System.Drawing.Size(226, 26)
+        Me.AnnoAssistBeendenToolStripMenuItem.Text = "AnnoAssist beenden"
+        '
+        'ModToolToolStripMenuItem
+        '
+        Me.ModToolToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.ModTool
+        Me.ModToolToolStripMenuItem.Name = "ModToolToolStripMenuItem"
+        Me.ModToolToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
+        Me.ModToolToolStripMenuItem.Text = "ModTool"
+        Me.ModToolToolStripMenuItem.ToolTipText = "Das ModTool von Pogobuckel"
+        '
+        'MapEditorToolStripMenuItem
+        '
+        Me.MapEditorToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.MapEditor
+        Me.MapEditorToolStripMenuItem.Name = "MapEditorToolStripMenuItem"
+        Me.MapEditorToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
+        Me.MapEditorToolStripMenuItem.Text = "MapEditor"
+        '
+        'AssetViewerToolStripMenuItem
+        '
+        Me.AssetViewerToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.AssetViewer
+        Me.AssetViewerToolStripMenuItem.Name = "AssetViewerToolStripMenuItem"
+        Me.AssetViewerToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
+        Me.AssetViewerToolStripMenuItem.Text = "AssetViewer"
+        '
+        'AnnoDesignerToolStripMenuItem
+        '
+        Me.AnnoDesignerToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.AnnoDesigner
+        Me.AnnoDesignerToolStripMenuItem.Name = "AnnoDesignerToolStripMenuItem"
+        Me.AnnoDesignerToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
+        Me.AnnoDesignerToolStripMenuItem.Text = "AnnoDesigner"
+        '
+        'NexusModsToolStripMenuItem
+        '
+        Me.NexusModsToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.NexusMods_Logo1
+        Me.NexusModsToolStripMenuItem.Name = "NexusModsToolStripMenuItem"
+        Me.NexusModsToolStripMenuItem.Size = New System.Drawing.Size(212, 26)
+        Me.NexusModsToolStripMenuItem.Text = "NexusMods"
+        '
+        'ÜberAnnoAssistToolStripMenuItem
+        '
+        Me.ÜberAnnoAssistToolStripMenuItem.Image = Global.AnnoAssist.My.Resources.Resources.icon_light_bulb
+        Me.ÜberAnnoAssistToolStripMenuItem.Name = "ÜberAnnoAssistToolStripMenuItem"
+        Me.ÜberAnnoAssistToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ÜberAnnoAssistToolStripMenuItem.Text = "Über AnnoAssist"
         '
         'F_Main
         '
