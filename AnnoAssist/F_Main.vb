@@ -6,4 +6,8 @@
     Private Sub NexusModsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NexusModsToolStripMenuItem.Click
         Process.Start("https://www.nexusmods.com/anno1800")
     End Sub
+
+    Private Sub JakobToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JakobToolStripMenuItem.Click
+        Process.Start("https://github.com/jakobharder")
+    End Sub
 End Class
