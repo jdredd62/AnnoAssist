@@ -28,4 +28,4 @@ Der AnnoAssist enthält mehrere Funktionen / Assistenten:
 - Weitere Funktionen folgen (Vorschläge der Community)
 
 
-![Titel!](https://github.com/jdredd62/AnnoAssist/blob/master/AnnoAssist/Resources/Anno Assist.png)
+![Titel!](https://github.com/jdredd62/AnnoAssist/blob/master/AnnoAssist/Resources/Anno-Assist.png)
