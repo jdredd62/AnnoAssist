@@ -10,4 +10,8 @@
     Private Sub JakobToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JakobToolStripMenuItem.Click
         Process.Start("https://github.com/jakobharder")
     End Sub
+
+    Private Sub FishbossToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FishbossToolStripMenuItem.Click
+        Process.Start("https://github.com/anno-mods/Fishboss-Mods")
+    End Sub
 End Class

@@ -58,6 +58,7 @@ Partial Class F_Main
         Me.ModsDownloadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NexusModsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TaludasCollectionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.JakobToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModsInstallierenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModManagerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExtModmanagerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -100,7 +101,7 @@ Partial Class F_Main
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.B_Anno_starten = New System.Windows.Forms.Button()
         Me.F_Main_Picture = New System.Windows.Forms.PictureBox()
-        Me.JakobToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FishbossToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.M_Main.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -320,7 +321,7 @@ Partial Class F_Main
         '
         'ModsDownloadToolStripMenuItem
         '
-        Me.ModsDownloadToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NexusModsToolStripMenuItem, Me.TaludasCollectionToolStripMenuItem, Me.JakobToolStripMenuItem})
+        Me.ModsDownloadToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NexusModsToolStripMenuItem, Me.TaludasCollectionToolStripMenuItem, Me.JakobToolStripMenuItem, Me.FishbossToolStripMenuItem})
         Me.ModsDownloadToolStripMenuItem.Name = "ModsDownloadToolStripMenuItem"
         Me.ModsDownloadToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ModsDownloadToolStripMenuItem.Text = "Mods Download"
@@ -337,6 +338,12 @@ Partial Class F_Main
         Me.TaludasCollectionToolStripMenuItem.Name = "TaludasCollectionToolStripMenuItem"
         Me.TaludasCollectionToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.TaludasCollectionToolStripMenuItem.Text = "Taludas Collection"
+        '
+        'JakobToolStripMenuItem
+        '
+        Me.JakobToolStripMenuItem.Name = "JakobToolStripMenuItem"
+        Me.JakobToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.JakobToolStripMenuItem.Text = "Jakob"
         '
         'ModsInstallierenToolStripMenuItem
         '
@@ -717,11 +724,11 @@ Partial Class F_Main
         Me.F_Main_Picture.TabIndex = 1
         Me.F_Main_Picture.TabStop = False
         '
-        'JakobToolStripMenuItem
+        'FishbossToolStripMenuItem
         '
-        Me.JakobToolStripMenuItem.Name = "JakobToolStripMenuItem"
-        Me.JakobToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.JakobToolStripMenuItem.Text = "Jakob"
+        Me.FishbossToolStripMenuItem.Name = "FishbossToolStripMenuItem"
+        Me.FishbossToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.FishbossToolStripMenuItem.Text = "Fishboss"
         '
         'F_Main
         '
@@ -870,4 +877,5 @@ Partial Class F_Main
     Friend WithEvents UpdateToolStripMenuItem5 As ToolStripMenuItem
     Friend WithEvents TaludasCollectionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents JakobToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FishbossToolStripMenuItem As ToolStripMenuItem
 End Class
