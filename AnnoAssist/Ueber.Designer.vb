@@ -37,7 +37,7 @@ Partial Class Ueber
         Me.P_Ueber.InitialImage = Global.AnnoAssist.My.Resources.Resources.Titel_Bild1
         Me.P_Ueber.Location = New System.Drawing.Point(12, 12)
         Me.P_Ueber.Name = "P_Ueber"
-        Me.P_Ueber.Size = New System.Drawing.Size(583, 164)
+        Me.P_Ueber.Size = New System.Drawing.Size(442, 119)
         Me.P_Ueber.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.P_Ueber.TabIndex = 0
         Me.P_Ueber.TabStop = False
@@ -45,7 +45,7 @@ Partial Class Ueber
         'B_Ueber_close
         '
         Me.B_Ueber_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.B_Ueber_close.Location = New System.Drawing.Point(230, 698)
+        Me.B_Ueber_close.Location = New System.Drawing.Point(165, 643)
         Me.B_Ueber_close.Name = "B_Ueber_close"
         Me.B_Ueber_close.Size = New System.Drawing.Size(135, 42)
         Me.B_Ueber_close.TabIndex = 1
@@ -57,7 +57,7 @@ Partial Class Ueber
         Me.L_Ueber.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.L_Ueber.Location = New System.Drawing.Point(12, 294)
         Me.L_Ueber.Name = "L_Ueber"
-        Me.L_Ueber.Size = New System.Drawing.Size(583, 160)
+        Me.L_Ueber.Size = New System.Drawing.Size(442, 160)
         Me.L_Ueber.TabIndex = 2
         Me.L_Ueber.Text = "AnnoAssist" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(c) 2022 by JDredd62 (Michael Zeiler)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Entwickelt von: Debbischkl" &
     "oppa u. JDredd62" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Ideen-Geber:"
@@ -67,7 +67,7 @@ Partial Class Ueber
         '
         Me.L_Ueber_Link.AutoSize = True
         Me.L_Ueber_Link.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.L_Ueber_Link.Location = New System.Drawing.Point(141, 203)
+        Me.L_Ueber_Link.Location = New System.Drawing.Point(65, 150)
         Me.L_Ueber_Link.Name = "L_Ueber_Link"
         Me.L_Ueber_Link.Size = New System.Drawing.Size(355, 25)
         Me.L_Ueber_Link.TabIndex = 3
@@ -78,18 +78,18 @@ Partial Class Ueber
         '
         Me.L_Ueber_Ideen.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.L_Ueber_Ideen.ForeColor = System.Drawing.Color.ForestGreen
-        Me.L_Ueber_Ideen.Location = New System.Drawing.Point(184, 454)
+        Me.L_Ueber_Ideen.Location = New System.Drawing.Point(113, 454)
         Me.L_Ueber_Ideen.Name = "L_Ueber_Ideen"
         Me.L_Ueber_Ideen.Size = New System.Drawing.Size(236, 71)
         Me.L_Ueber_Ideen.TabIndex = 4
-        Me.L_Ueber_Ideen.Text = "Lady Meridonia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Kessie2004"
+        Me.L_Ueber_Ideen.Text = "Lady Meridonia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Kessie2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Ionovia"
         Me.L_Ueber_Ideen.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Ueber
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(609, 774)
+        Me.ClientSize = New System.Drawing.Size(462, 699)
         Me.Controls.Add(Me.L_Ueber_Ideen)
         Me.Controls.Add(Me.L_Ueber_Link)
         Me.Controls.Add(Me.L_Ueber)
