@@ -67,7 +67,7 @@ Partial Class Ueber
         '
         Me.L_Ueber_Link.AutoSize = True
         Me.L_Ueber_Link.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.L_Ueber_Link.Location = New System.Drawing.Point(65, 150)
+        Me.L_Ueber_Link.Location = New System.Drawing.Point(73, 149)
         Me.L_Ueber_Link.Name = "L_Ueber_Link"
         Me.L_Ueber_Link.Size = New System.Drawing.Size(355, 25)
         Me.L_Ueber_Link.TabIndex = 3

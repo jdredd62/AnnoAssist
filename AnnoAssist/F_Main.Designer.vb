@@ -843,8 +843,42 @@ Partial Class F_Main
     Friend WithEvents L_ModTool_Button As Label
 
     Private Sub F_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        '
+        ' Prüfen, ob eine config.ini existiert
+        '
+        If My.Computer.FileSystem.FileExists("config.ini") Then
+            'alles ok
+        Else
+            ' config.ini erstellen und 20 Leerzeilen einfügen
+            Dim stream_config As System.IO.FileStream
+            stream_config = System.IO.File.Create("config.ini")
+            stream_config.Close()
+
+            Dim lines() = {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""}
+            System.IO.File.WriteAllLines("config.ini", lines)
+        End If
+
+        '
+        ' Prüfen, ob die Datei Link-Liste existiert
+        '
+        If My.Computer.FileSystem.FileExists("links.lst") Then
+            'alles ok
+        Else
+            ' links.lst erstellen und 20 Leerzeilen einfügen
+            Dim stream_links As System.IO.FileStream
+            stream_links = System.IO.File.Create("links.lst")
+            stream_links.Close()
+
+            Dim lines() = {"", "", "", "", "", "", "", "", ""}
+            System.IO.File.WriteAllLines("links.lst", lines)
+        End If
+
+
+
         B_Modding_on.BackColor = Color.LightGreen
         B_Modding_off.BackColor = Color.Transparent
+
+
     End Sub
 
     Friend WithEvents B_MapEditor As Button
