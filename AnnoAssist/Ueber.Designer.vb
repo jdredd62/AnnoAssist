@@ -80,9 +80,9 @@ Partial Class Ueber
         Me.L_Ueber_Ideen.ForeColor = System.Drawing.Color.ForestGreen
         Me.L_Ueber_Ideen.Location = New System.Drawing.Point(113, 454)
         Me.L_Ueber_Ideen.Name = "L_Ueber_Ideen"
-        Me.L_Ueber_Ideen.Size = New System.Drawing.Size(236, 71)
+        Me.L_Ueber_Ideen.Size = New System.Drawing.Size(236, 83)
         Me.L_Ueber_Ideen.TabIndex = 4
-        Me.L_Ueber_Ideen.Text = "Lady Meridonia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Kessie2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Ionovia"
+        Me.L_Ueber_Ideen.Text = "Lady Meridonia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Kessie2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Ionovia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "KimWin"
         Me.L_Ueber_Ideen.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Ueber
